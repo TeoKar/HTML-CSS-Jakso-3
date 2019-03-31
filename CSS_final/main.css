@@ -1,10 +1,14 @@
 html{
-    background-color: lightskyblue;
+    background: url(kuvat/mount_fuji.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 body{
-    background-color: red;
+    opacity: 10%;
     height: 100%;
-    width: 70%;
+    width: 68%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -13,12 +17,14 @@ body{
 
 #header{
     width: 100%;
-    height: 50px;
+    height: 26px;
     text-align: center;
     margin: 5px;
     background-color: black;
-    color: aqua;
+    color: white;
     font-weight: bold;
+    font-size: 125%;
+    border-radius: 5px;
 }
 
 .miniheader{
@@ -26,8 +32,13 @@ body{
     bottom: 8px;
     right: 16px;
     margin: auto;
-
 }
+
+#12{
+    color: white !important;
+}
+
+
 .images{
     position: relative;
     height: 20%;
@@ -74,6 +85,7 @@ p{
     border-radius: 45px;
     font-weight: bolder;
 }
+
 @media screen and (max-width: 1200px)  {
     body {
         width: 85%;

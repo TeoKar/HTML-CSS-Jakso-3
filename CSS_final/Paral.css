@@ -8,28 +8,53 @@ html {
     width: 100%;
 }
 
+#div1{
+    width: 35%;
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+}
+
+#div2{
+    width: 32%;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    height: 30%;
+    right: 1%;
+    top: 2%;
+}
+#div3{
+    z-index: 5;
+    position: absolute;
+    top: 10%;
+
+}
+
 #Galaxy1 {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     max-height: 475px;
-    z-index: 1;
     position: relative;
-    top: 1%;
-    left: 1%;
+    top: 3%;
+    left: 3%;
 }
 
 #Galaxy2{
-    z-index: 1;
-    position: absolute;
+    position: relative;
     right: 5%;
     top: 5%;
-    height: 325px;
-
+     max-height: 325px;
 }
 
-#Comet{
-z-index: 3;
+#comet{
+    z-index: inherit;
+}
 
+
+.wrapper{
+    position: absolute;
+    top: 2%;
 }
