@@ -1,0 +1,35 @@
+html {
+    background: url(kuvat/Fuji.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#Galaxy1 {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    max-height: 475px;
+    z-index: 1;
+    position: relative;
+    top: 1%;
+    left: 1%;
+}
+
+#Galaxy2{
+    z-index: 1;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    height: 325px;
+
+}
+
+#Comet{
+z-index: 3;
+
+}
