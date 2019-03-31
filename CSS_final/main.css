@@ -79,12 +79,12 @@ video{
     border-radius: 5px;
 }
 
-p{
+/*p{
     padding: 5px;
     border: solid darkred 5px;
     border-radius: 45px;
     font-weight: bolder;
-}
+}*/
 
 @media screen and (max-width: 1200px)  {
     body {
